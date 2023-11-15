@@ -25,8 +25,10 @@ const route = useRoute();
   }
   .right {
     flex: 1;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     background-color: #f5f7f9;
+
     .main-body {
       padding: 16px 16px 30px;
       overflow: auto;
